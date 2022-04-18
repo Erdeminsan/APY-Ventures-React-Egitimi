@@ -1,0 +1,178 @@
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+<div  style="background-color:#5BFCEB" class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Leyla ile Mecnun</h1>
+  <p>Bir Burak Aksak yapıtı</p> 
+</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html">
+    
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+  <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+</svg>
+
+
+    Ana Sayfa</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="oyuncular.html">Oyuncular</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="yazar.html">Yazar</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> bla bla</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="row">
+  
+  <div class="col-sm-4">
+      <h2>Ali Atay</h2>
+       <img src="data:image/jpeg;base64,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" class="img-responsive img1 col-sm-12"></img>
+      <p>Mecnun </p>
+       
+     
+    </div>
+     <div class="col-sm-4">
+      <h2>Serkan Keskin</h2>
+       <img src="data:image/jpeg;base64,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" class="img-responsive img1 col-sm-12"></img>
+      <p>İsmail Abi</p>
+       
+     
+    </div>
+     <div class="col-sm-4">
+      <h2>Ezgi Asaroğlu</h2>
+       <img src="data:image/jpeg;base64,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" class="img-responsive img1 col-sm-12"></img>
+      <p>Leyla</p>
+       
+     
+    </div>
+     <div class="col-sm-4">
+      <h2>Ahmet Mümtaz Taylan</h2>
+       <img src="data:image/jpeg;base64,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" class="img-responsive img1 col-sm-12"></img>
+      <p>İskender Abi</p>
+       
+     
+    </div>
+     <div class="col-sm-4">
+      <h2>Osman Sonant</h2>
+       <img src="data:image/jpeg;base64,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" class="img-responsive img1 col-sm-12"></img>
+      <p>Yavuz</p>
+       
+     
+    </div>
+     <div class="col-sm-4">
+      <h2>Cengiz Bozkurt</h2>
+       <img src="data:image/jpeg;base64,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" class="img-responsive img1 col-sm-12"></img>
+      <p>Erdal Bakkal</p>
+       
+     
+    </div>
+ 
+ 
+</div>
+
+
+<section class="ftco-section">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-md-6 text-center">
+
+</div>
+</div>
+</div>
+</section>
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+             class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="#!"
+             role="button"
+             data-mdb-ripple-color="dark"
+             ><a href="#"><i class="fa fa-facebook"></i></a>
+            ></a>
+
+          <!-- Twitter -->
+          <a
+             class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="#!"
+             role="button"
+             data-mdb-ripple-color="dark"
+             ><a href="#"><i class="fa fa-twitter"></i></a>
+            ></a>
+
+          <!-- Google -->
+          <a
+             class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="#!"
+             role="button"
+             data-mdb-ripple-color="dark"
+             ><a href="#"><i class="fa fa-google-plus"></i></a>
+            ></a>
+
+          <!-- Instagram -->
+          <a
+             class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="#!"
+             role="button"
+             data-mdb-ripple-color="dark"
+             ><a href="#"><i class="fa fa-instagram"></i></a>
+            ></a>
+
+          <!-- Linkedin -->
+          <a
+             class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="#!"
+             role="button"
+             data-mdb-ripple-color="dark"
+             ><a href="#"><i class="fa fa-linkedin"></i></a>
+            ></a>
+          <!-- Github -->
+          <a
+             class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="#!"
+             role="button"
+             data-mdb-ripple-color="dark"
+             ><a href="#"><i class="fa fa-github"></i></a>
+            ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-dark" href="#">Erdem İnsan</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+
+</body>
+</html>

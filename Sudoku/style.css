@@ -1,0 +1,38 @@
+body{
+    background-color: orchid;
+    margin: auto;
+  }
+  div.mini{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: white;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  div.miniClass{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  div.bigClass{
+    width: 340px;
+    height: 340px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  div.baslik{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    /*border: 3px solid black;*/
+  }
+  

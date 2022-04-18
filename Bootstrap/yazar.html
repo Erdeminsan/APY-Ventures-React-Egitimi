@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+<div  style="background-color:#5BFCEB" class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Leyla ile Mecnun</h1>
+  <p>Bir Burak Aksak yapıtı</p> 
+</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html">
+    
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+  <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+</svg>
+
+    
+    Ana Sayfa</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="oyuncular.html">Oyuncular</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="yazar.html">Yazar</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> bla bla</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>
+        Burak Aksak
+      </h2>
+      <img src="data:image/jpeg;base64,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" class="img-responsive img1 col-sm-12"></img>
+      <p>Burak Aksak (12 Eylül 1985, İstanbul), Türk senarist, yönetmen ve oyuncu.
+
+        İlköğrenimini Yedikule’de, orta öğretimini ise Koca Mustafa Paşa lisesinde tamamlamıştır. Şu an hâlâ Eskişehir Anadolu Üniversitesi Kamu Yönetimi bölümünde okumaktadır. 2006 yılında kazandığı bursla Plato Film Okuluna girmiştir. Ayrıca Ekol Drama Sanat Okulu’nda “Kamera Önü Oyunculuğu" eğitimi vermektedir. Televizyon hayatına kuzeni Selçuk Aydemir'le beraber senaristliğini yapıp yönettiği TRT'de yayınlanan Ramazan Güzeldir dizisiyle başlayan Burak Aksak, yine TRT'de Onur Ünlü'nün yönettiği Leyla ile Mecnun'un senaristliğini yapmıştır. Leyla ile Mecnun dizisi yayından kaldırılınca Ben de Özledim dizisinde senaristlik yapmaya devam etmiştir. BKM'nin yapımını üstlendiği, 9 Ocak 2015'te vizyona girmiş olan Bana Masal Anlatma adlı sinema filminin hem senaristi hem de yönetmenidir. 2013 yılından günümüze aylık yayınlanan OT'da düzenli olarak yazmaktadır. Yine BKM'nin yapımını üstlendiği, başrollerinde Cengiz Bozkurt, Seda Bakan, Erkan Kolçak Köstendil gibi isimlerin yer aldığı 18 Eylül 2015'te vizyona giren Kara Bela adlı 2. filminde de senaristliği ve yönetmenliği üstlenmiştir. Film, halka açık bir gala düzenlenmesiyle Türk sinema tarihinde bir ilki gerçekleştirdi. Harbiye Cemil Topuzlu Açıkhava Tiyatrosu'ndaki galayı yaklaşık beş bin biletli izleyici izledi.[1]</p>
+    </div>
+
+    <div class="col-sm-4">
+      <p>Burak Aksak (12 Eylül 1985, İstanbul), Türk senarist, yönetmen ve oyuncu.
+
+      İlköğrenimini Yedikule’de, orta öğretimini ise Koca Mustafa Paşa lisesinde tamamlamıştır. Şu an hâlâ Eskişehir Anadolu Üniversitesi Kamu Yönetimi bölümünde okumaktadır. 2006 yılında kazandığı bursla Plato Film Okuluna girmiştir. Ayrıca Ekol Drama Sanat Okulu’nda “Kamera Önü Oyunculuğu" eğitimi vermektedir. Televizyon hayatına kuzeni Selçuk Aydemir'le beraber senaristliğini yapıp yönettiği TRT'de yayınlanan Ramazan Güzeldir dizisiyle başlayan Burak Aksak, yine TRT'de Onur Ünlü'nün yönettiği Leyla ile Mecnun'un senaristliğini yapmıştır. Leyla ile Mecnun dizisi yayından kaldırılınca Ben de Özledim dizisinde senaristlik yapmaya devam etmiştir. BKM'nin yapımını üstlendiği, 9 Ocak 2015'te vizyona girmiş olan Bana Masal Anlatma adlı sinema filminin hem senaristi hem de yönetmenidir. 2013 yılından günümüze aylık yayınlanan OT'da düzenli olarak yazmaktadır. Yine BKM'nin yapımını üstlendiği, başrollerinde Cengiz Bozkurt, Seda Bakan, Erkan Kolçak Köstendil gibi isimlerin yer aldığı 18 Eylül 2015'te vizyona giren Kara Bela adlı 2. filminde de senaristliği ve yönetmenliği üstlenmiştir. Film, halka açık bir gala düzenlenmesiyle Türk sinema tarihinde bir ilki gerçekleştirdi. Harbiye Cemil Topuzlu Açıkhava Tiyatrosu'ndaki galayı yaklaşık beş bin biletli izleyici izledi.[1]</p>
+    </div>
+    <div class="col-sm-4">
+      <p>Burak Aksak (12 Eylül 1985, İstanbul), Türk senarist, yönetmen ve oyuncu.
+
+      İlköğrenimini Yedikule’de, orta öğretimini ise Koca Mustafa Paşa lisesinde tamamlamıştır. Şu an hâlâ Eskişehir Anadolu Üniversitesi Kamu Yönetimi bölümünde okumaktadır. 2006 yılında kazandığı bursla Plato Film Okuluna girmiştir. Ayrıca Ekol Drama Sanat Okulu’nda “Kamera Önü Oyunculuğu" eğitimi vermektedir. Televizyon hayatına kuzeni Selçuk Aydemir'le beraber senaristliğini yapıp yönettiği TRT'de yayınlanan Ramazan Güzeldir dizisiyle başlayan Burak Aksak, yine TRT'de Onur Ünlü'nün yönettiği Leyla ile Mecnun'un senaristliğini yapmıştır. Leyla ile Mecnun dizisi yayından kaldırılınca Ben de Özledim dizisinde senaristlik yapmaya devam etmiştir. BKM'nin yapımını üstlendiği, 9 Ocak 2015'te vizyona girmiş olan Bana Masal Anlatma adlı sinema filminin hem senaristi hem de yönetmenidir. 2013 yılından günümüze aylık yayınlanan OT'da düzenli olarak yazmaktadır. Yine BKM'nin yapımını üstlendiği, başrollerinde Cengiz Bozkurt, Seda Bakan, Erkan Kolçak Köstendil gibi isimlerin yer aldığı 18 Eylül 2015'te vizyona giren Kara Bela adlı 2. filminde de senaristliği ve yönetmenliği üstlenmiştir. Film, halka açık bir gala düzenlenmesiyle Türk sinema tarihinde bir ilki gerçekleştirdi. Harbiye Cemil Topuzlu Açıkhava Tiyatrosu'ndaki galayı yaklaşık beş bin biletli izleyici izledi.[1]</p>
+    </div>
+  </div>
+</div>
+<section class="ftco-section">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-md-6 text-center">
+
+</div>
+</div>
+</div>
+</section>
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+             class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="#!"
+             role="button"
+             data-mdb-ripple-color="dark"
+             ><a href="#"><i class="fa fa-facebook"></i></a>
+            ></a>
+
+          <!-- Twitter -->
+          <a
+             class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="#!"
+             role="button"
+             data-mdb-ripple-color="dark"
+             ><a href="#"><i class="fa fa-twitter"></i></a>
+            ></a>
+
+          <!-- Google -->
+          <a
+             class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="#!"
+             role="button"
+             data-mdb-ripple-color="dark"
+             ><a href="#"><i class="fa fa-google-plus"></i></a>
+            ></a>
+
+          <!-- Instagram -->
+          <a
+             class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="#!"
+             role="button"
+             data-mdb-ripple-color="dark"
+             ><a href="#"><i class="fa fa-instagram"></i></a>
+            ></a>
+
+          <!-- Linkedin -->
+          <a
+             class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="#!"
+             role="button"
+             data-mdb-ripple-color="dark"
+             ><a href="#"><i class="fa fa-linkedin"></i></a>
+            ></a>
+          <!-- Github -->
+          <a
+             class="btn btn-link btn-floating btn-lg text-dark m-1"
+             href="#!"
+             role="button"
+             data-mdb-ripple-color="dark"
+             ><a href="#"><i class="fa fa-github"></i></a>
+            ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-dark" href="#">Erdem İnsan</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+</body>
+</html>
